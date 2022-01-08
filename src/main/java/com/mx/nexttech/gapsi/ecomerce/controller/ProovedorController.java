@@ -10,14 +10,12 @@ import com.mx.nexttech.gapsi.ecomerce.dto.PaginaProveedor;
 import com.mx.nexttech.gapsi.ecomerce.dto.Proveedor;
 import com.mx.nexttech.gapsi.ecomerce.service.BusinessException;
 import com.mx.nexttech.gapsi.ecomerce.service.ProveedorService;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -32,6 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author ArminJesusLunaMorale
  */
 @RestController
+@CrossOrigin
 @RequestMapping("api/v1/gapsi/ecommerce/proveedor")
 public class ProovedorController {
 
