@@ -1,12 +1,12 @@
 {
     "provedores":[
         {   
-            "nombre":"Cocacola",
+            "nombre":"COCACOLA",
             "razonSocial":"Cocacola",
             "direccion":"Direccion Cocacola"
         },
         {
-            "nombre":"Garritos",
+            "nombre":"GARRITOS",
             "razonSocial":"Garritos",
             "direccion":"Direcion Garritos"
         },
@@ -16,7 +16,7 @@
             "direccion":"Direcion NESCAFE"
         },
         {
-            "nombre":"Startbucks",
+            "nombre":"STARTBUCKS",
             "razonSocial":"Startbucks",
             "direccion":"Direcion Startbucks"
         }
